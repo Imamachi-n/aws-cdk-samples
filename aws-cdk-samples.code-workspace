@@ -1,0 +1,11 @@
+{
+  "folders": [
+    {
+      "name": "cognito-advanced-security",
+      "path": "packages/cognito-advanced-security"
+    }
+  ],
+  "settings": {
+    "typescript.enablePromptUseWorkspaceTsdk": true
+  }
+}

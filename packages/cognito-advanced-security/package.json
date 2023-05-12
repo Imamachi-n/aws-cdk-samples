@@ -1,0 +1,19 @@
+{
+  "name": "cognito-advanced-security",
+  "version": "0.1.0",
+  "private": true,
+  "bin": {
+    "cognito-advanced-security": "bin/entrypoint.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "aws-cdk-lib": "2.79.1",
+    "constructs": "^10.0.0",
+    "source-map-support": "^0.5.21"
+  }
+}
