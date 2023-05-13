@@ -282,6 +282,9 @@ export class CognitoAdvancedSecurityStack extends Stack {
     threshold?: number
   ) {
     const riskLevel = level || "high";
+
+    // Cognito アドバンスドセキュリティのメトリクスに対してアラート設定
+    // URL: https://docs.aws.amazon.com/ja_jp/cognito/latest/developerguide/user-pool-settings-viewing-advanced-security-metrics.html
     const alarm = new Alarm(
       this,
       `cognito-as-${metricName}-${operation}-${riskLevel}`,
