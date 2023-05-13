@@ -301,7 +301,7 @@ export class CognitoAdvancedSecurityStack extends Stack {
           period: Duration.minutes(5),
         }),
         evaluationPeriods: 1,
-        threshold: threshold || 3, // 3件以上でアラートを発砲
+        threshold: threshold || 1, // 1件以上でアラートを発砲
         comparisonOperator:
           ComparisonOperator.GREATER_THAN_OR_EQUAL_TO_THRESHOLD,
         alarmDescription: `${metricName} (${operation}) is too high`,
