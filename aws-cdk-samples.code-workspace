@@ -1,8 +1,16 @@
 {
   "folders": [
     {
+      "name": "cdk-template",
+      "path": "packages/cdk-template"
+    },
+    {
       "name": "cognito-advanced-security",
       "path": "packages/cognito-advanced-security"
+    },
+    {
+      "name": "waf-troubleshooting",
+      "path": "packages/waf-troubleshooting"
     }
   ],
   "settings": {

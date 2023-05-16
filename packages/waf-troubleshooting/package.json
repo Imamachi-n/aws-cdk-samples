@@ -1,9 +1,9 @@
 {
-  "name": "cdk-template",
+  "name": "waf-troubleshooting",
   "version": "0.1.0",
   "private": true,
   "bin": {
-    "cdk-template": "bin/entrypoint.js"
+    "waf-troubleshooting": "bin/entrypoint.js"
   },
   "scripts": {
     "build": "tsc",
