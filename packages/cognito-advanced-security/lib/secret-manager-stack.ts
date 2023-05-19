@@ -10,6 +10,7 @@ type SecretsProps = {
 
 /**
  * secret のパラメータを保存するための CDK スタック
+ * MEMO: 未使用
  */
 export class SecretManagerStack extends Stack {
   constructor(scope: Construct, id: string, props: SecretsProps) {
